@@ -10,7 +10,7 @@ body {
     url(images/background-img.jpeg);
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 90vh;
 }
 
 .nav {
@@ -171,6 +171,9 @@ button {
 }
 
 @media screen and (max-width: 950px) {
+  .header {
+    height: 60vh;
+  }
   .login-con {
     width: 300px;
     padding: 5%;
@@ -240,7 +243,7 @@ button {
     padding: 6% 5%;
   }
   .header {
-    height: 80vh;
+    height: 50vh;
   }
   .get-started button {
     padding: 4px;
@@ -264,6 +267,9 @@ button {
 }
 
 @media screen and (max-width: 465px) {
+  .header {
+    height: 45vh;
+  }
   .login-con {
     padding: 10% 1%;
   }
@@ -304,7 +310,7 @@ button {
 
 .section-center p {
   text-align: center;
-  font-size: 20;
+  font-size: 18px;
   font-weight: 700;
   color: #777;
 }
@@ -380,15 +386,21 @@ button {
   .section-center {
     width: 80%;
   }
-
+  .section-center p {
+    font-size: 20px;
+  }
   .question {
     padding: 3px 5px;
     margin-bottom: 10px;
   }
 
+  .question-title p {
+    font-size: 20px;
+  }
+
   .fa-plus,
   .fa-minus {
-    font-size: 15px;
+    font-size: 17px;
     padding: 3px;
   }
 }
@@ -399,7 +411,6 @@ button {
 
 .testimonial-con {
   width: 100%;
-  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -412,7 +423,7 @@ button {
 }
 
 .testimonial {
-  margin: 10px auto 10px;
+  margin: auto;
   width: 90%;
   max-width: 800px;
   display: flex;
@@ -424,7 +435,6 @@ button {
   padding: 10px 10px;
   border-radius: 5px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  height: 250px;
 }
 .user-text {
   display: none;
@@ -466,12 +476,12 @@ button {
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
   .testimonial {
     width: 80%;
     max-width: 800px;
     padding: 10px 15px;
-    height: 250px;
+    margin-top: -20px;
   }
 
   .user-text p {
@@ -499,7 +509,7 @@ button {
   }
   .user-text span {
     margin-top: -20px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
   }
 
