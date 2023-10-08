@@ -243,7 +243,7 @@ button {
     padding: 6% 5%;
   }
   .header {
-    height: 50vh;
+    height: 55vh;
   }
   .get-started button {
     padding: 4px;
@@ -387,7 +387,7 @@ button {
     width: 80%;
   }
   .section-center p {
-    font-size: 20px;
+    font-size: 17px;
   }
   .question {
     padding: 3px 5px;
@@ -395,12 +395,12 @@ button {
   }
 
   .question-title p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .fa-plus,
   .fa-minus {
-    font-size: 17px;
+    font-size: 16px;
     padding: 3px;
   }
 }
@@ -480,12 +480,15 @@ button {
   .testimonial {
     width: 80%;
     max-width: 800px;
-    padding: 10px 15px;
+    padding: 7px 15px;
     margin-top: -20px;
   }
 
+  .testimonial-con h1 {
+    font-size: 14px;
+  }
   .user-text p {
-    font-size: 17px;
+    font-size: 14px;
     text-align: left;
   }
   .user-text span {
