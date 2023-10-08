@@ -290,7 +290,7 @@ button {
 
 .section-center h1 {
   text-align: center;
-  font-size: 17px;
+  font-size: 20px;
   color: #777;
 }
 
@@ -309,6 +309,7 @@ button {
 
 .question-title {
   display: flex;
+  font-weight: bold;
   justify-content: space-between;
   align-items: center;
 }
@@ -373,11 +374,11 @@ button {
   }
 
   .question-title p {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .question-text p {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .fa-plus,
@@ -400,7 +401,7 @@ button {
 }
 
 .testimonial-con h1 {
-  font-size: 17px;
+  font-size: 20px;
   color: #777;
 }
 
@@ -470,7 +471,7 @@ button {
     font-size: 13px;
   }
   .user-text p {
-    font-size: 14px;
+    font-size: 15px;
     text-align: left;
   }
   .user-text span {
