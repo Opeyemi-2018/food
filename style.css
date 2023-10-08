@@ -288,10 +288,9 @@ button {
 
 /*----------------question and answer styling start------------------------*/
 
-.section-center p {
+.section-center h1 {
   text-align: center;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 17px;
   color: #777;
 }
 
@@ -316,7 +315,6 @@ button {
 
 .question-title p {
   color: orangered;
-  font-weight: bolder;
   margin-bottom: 1.25rem;
 }
 
@@ -366,8 +364,8 @@ button {
   .section-center {
     width: 80%;
   }
-  .section-center p {
-    font-size: 17px;
+  .section-center h1 {
+    font-size: 13px;
   }
   .question {
     padding: 3px 5px;
@@ -375,7 +373,11 @@ button {
   }
 
   .question-title p {
-    font-size: 16px;
+    font-size: 14px;
+  }
+
+  .question-text p {
+    font-size: 14px;
   }
 
   .fa-plus,
@@ -465,10 +467,10 @@ button {
   }
 
   .testimonial-con h1 {
-    font-size: 12px;
+    font-size: 13px;
   }
   .user-text p {
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
   }
   .user-text span {
