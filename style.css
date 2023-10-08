@@ -25,6 +25,7 @@ body {
   right: 0;
   background: #fff;
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+  z-index: 999;
 }
 
 .logo img {
@@ -44,9 +45,8 @@ body {
   transition: 0.3s;
 }
 
-.get-started button:hover {
+.get-started button:active {
   background-color: orange;
-  color: #fff;
 }
 
 .main-con {
@@ -90,9 +90,8 @@ body {
   transition: 0.3s;
 }
 
-.home-btn button:hover {
+.home-btn button:active {
   background-color: orange;
-  color: #fff;
 }
 
 .home-img {
@@ -105,7 +104,7 @@ body {
   border-radius: 50%;
 }
 .login-con {
-  position: absolute;
+  position: fixed;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -147,7 +146,7 @@ button {
   font-weight: 500;
 }
 
-.login-con button:hover {
+.login-con button:active {
   background-color: orange;
 }
 
@@ -466,10 +465,10 @@ button {
   }
 
   .testimonial-con h1 {
-    font-size: 14px;
+    font-size: 12px;
   }
   .user-text p {
-    font-size: 14px;
+    font-size: 12px;
     text-align: left;
   }
   .user-text span {
