@@ -21,7 +21,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 40px;
+  padding: 0px 20px;
 }
 
 .left-header button {
@@ -120,6 +120,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   column-gap: 10px;
   row-gap: 15px;
+  place-items: center;
 }
 
 @media (max-width: 850px) {
@@ -152,11 +153,11 @@ body {
 .menu-item {
   background-color: #fff;
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 10px 14px;
   text-align: center;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  width: 280px;
+  width: 300px;
 }
 
 .menu-item .food-details {
@@ -174,15 +175,11 @@ body {
   border: none;
   border-radius: 3px;
   font-weight: bold;
-  transition: 0.3s;
-}
-
-.menu-item button:hover {
-  background-color: orange;
 }
 
 .menu-item button:active {
-  background-color: #ff5722;
+  background-color: #fff;
+  color: #ff5722;
 }
 
 .menu-item img {
